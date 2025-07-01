@@ -1,8 +1,4 @@
-import prompt
 from ..cli import welcome_user
-
-# import sys
-# print(sys.executable)
 
 
 def main():
