@@ -9,7 +9,7 @@ def generate_question_for_even_game():
     return random_integer, correct_answer
 
 
-game_description = """Answer "yes" if the number is even, otherwise answer "no".""" # noqa: E501
+game_description = """Answer "yes" if the number is even, otherwise answer "no"."""  # noqa: E501
 
 
 def even_game():
