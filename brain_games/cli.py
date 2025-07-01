@@ -33,5 +33,5 @@ def end_of_the_game(name, win, player_answer, correct_answer):
     if win:
         print(f"Congratulations, {name}!")
     else:
-        print(f"""'{player_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.""")  # noqa: E702,E203,E231
+        print(f"""'{player_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.""")  # noqa: E702,E203,E231,E501
         print(f"Let's try again, {name}!")
