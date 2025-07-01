@@ -9,3 +9,11 @@ def find_gcd(a, b):
         else:
             b = b % a
     return a + b
+
+
+def is_prime(x):
+    half = x // 2
+    for i in range(2, half + 1):
+        if x % i == 0:
+            return False
+    return x > 1

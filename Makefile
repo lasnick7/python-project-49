@@ -16,6 +16,9 @@ brain-gcd:
 brain-progression:
 	uv run brain-progression
 
+brain-prime:
+	uv run brain-prime
+
 local-games:
 	uv run brain-games --link-mode=copy
 
